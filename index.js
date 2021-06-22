@@ -15,7 +15,9 @@ function randomWho(){
         case 4:
             return 'My bird';
     }
-}
+    // if(random === 'The dog' || random === 'His turtle'){
+        // return 'greenyellow';
+    }
 // document.getElementById('demo').innerHTML= randomWho();
 
 function randomAction(){
