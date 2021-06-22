@@ -16,7 +16,7 @@ function randomWho(){
             return 'My bird';
     }
 }
-document.getElementById('demo').innerHTML= randomWho();
+// document.getElementById('demo').innerHTML= randomWho();
 
 function randomAction(){
     let randomA = Math.floor(Math.random()*4+1);
@@ -31,7 +31,7 @@ function randomAction(){
             return 'broke';
     }
 }
-document.getElementById('demo2').innerHTML= randomAction();
+// document.getElementById('demo2').innerHTML= randomAction();
 
 function randomWhat(){
     let randomW = Math.floor(Math.random()*3+1);
@@ -44,7 +44,7 @@ function randomWhat(){
             return 'the car';
     }
 }
-document.getElementById('demo3').innerHTML= randomWhat();
+// document.getElementById('demo3').innerHTML= randomWhat();
 
 function randomWhen(){
     let randomWh = Math.floor(Math.random()*5+1);
@@ -61,4 +61,5 @@ function randomWhen(){
             return 'while I was praying';
     }
 }
-document.getElementById('demo4').innerHTML= randomWhen();
+// document.getElementById('demo4').innerHTML= randomWhen();
+document.getElementById('excuse').innerHTML= randomWho()+' '+randomAction()+' '+randomWhat()+' '+randomWhen()+'!'
